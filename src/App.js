@@ -72,11 +72,8 @@ setLoading(false)
 <div className='a'>
   <div className='logo'></div>
 <select className='selectflags'  name='language' onChange={onChange}>
-<<<<<<< HEAD
-<option value="en"> English1</option>
-=======
-<option value="en">Englich </option>
->>>>>>> 2df5fc4a84cb51a2715585a9f7655f957b92dc32
+<option value="en">English </option>
+
 
 <option value="fr">French1</option>
 
