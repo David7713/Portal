@@ -3,14 +3,29 @@ import { useState, useEffect } from 'react'
 import CircleLoader from "react-spinners/CircleLoader";
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
+//component Imports///
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import Navigation from './components/Navigation';
+import Carousel from './components/Carousel';
+import Miami from './components/Miami';
+import Newyork from './components/Newyork';
+import Contact from './components/Contact';
+import About from './components/About';
+import Baltimore from './components/Baltimore';
+import Error from './components/Error';
+//style Imports///
 import "./App.css"
 import "./styles/Spinner.css"
 import "./styles/LanguageSwitcher.css"
-
-
-
-
-const translationsEn = {welcome:"Welcome!!",
+import "./styles/Navigation.css"
+import "./styles/Carousel.css"
+import "./styles/Miami.css"
+import "./styles/Baltimore.css"
+import "./styles/Newyork.css"
+import "./styles/About.css"
+import "./styles/Contact.css"
+import "./styles/Error.css"
+const translationsEn = {welcome:"",
 changed:"Hello and come to paris",
 about:"About"
 
@@ -51,7 +66,7 @@ const [loading,setLoading] = useState(false)
     setLoading(true)
     setTimeout(()=>{
 setLoading(false)
-    },3000)
+    },1000)
  },[])
   return (
     <Suspense fallback="Loading...">
@@ -73,8 +88,8 @@ setLoading(false)
   //// SPINNER ENDS
 <div>
 
-<div className='a'>
-  <div className='logo'></div>
+<div className='main'>
+  {/* <div className='logo'></div> */}
 {/* Language Switcher Start */}
 <select className='languageSwitcher'  name='language' onChange={onChange}>
 <option value="en">ENG</option>
@@ -82,15 +97,51 @@ setLoading(false)
 <option value="fr">RUS</option>
 </select>
 
-  <h1>{t('welcome')}</h1>
-  <h2>{t('changed')}</h2>
+  {/* <h1>{t('welcome')}</h1>
+  <h2>{t('changed')}</h2> */}
+
+
+
+
   
+  <Router>
+    <Routes>
+   
+      <Route path='home' element={<App></App>}></Route>
+      <Route path='/' element={<Navigation></Navigation>}></Route>
+      <Route path='miami' element={<Miami></Miami>}></Route>
+      <Route path='newyork' element={<Newyork></Newyork>}></Route>
+      <Route path='baltimore' element={<Baltimore></Baltimore>}></Route>
+      <Route path='about' element={<About></About>}></Route>
+      <Route path='contact' element={<Contact></Contact>}></Route>
+
+      <Route path="*" element={<Error></Error>}></Route>
+    </Routes>
+  </Router>
+
+  {/* <Navigation></Navigation> */}
+  <Carousel></Carousel>
+  <Miami></Miami>
+  <Newyork></Newyork>
+  <Baltimore></Baltimore>
+  <About></About> 
+  <Contact></Contact>
 </div>
 
 </div>
+
+
+
+
+
+
+
+
 
 
 }
+
+
     </div>
     </Suspense>
   )
