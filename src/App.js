@@ -5,19 +5,21 @@ import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import "./App.css"
 import "./styles/Spinner.css"
-
+import "./styles/LanguageSwitcher.css"
 
 
 
 
 const translationsEn = {welcome:"Welcome!!",
-changed:"Hello and come to paris"
-
+changed:"Hello and come to paris",
+about:"About"
 
 
 }
 const translationsFr = {welcome:"Bievenue!!",
-changed:"Je Pie Di Va sonx paris"}
+changed:"Je Pie Di Va sonx paris",
+about:"Abuti"
+}
 
 
 i18n
@@ -55,7 +57,9 @@ setLoading(false)
     <Suspense fallback="Loading...">
     <div className='App'>
 
-{/* spinner */}
+{/* spinner */} 
+
+
 {
     loading?
     <CircleLoader
@@ -66,37 +70,24 @@ setLoading(false)
     speedMultiplier={1}
   />
     :
-  
+  //// SPINNER ENDS
 <div>
 
 <div className='a'>
   <div className='logo'></div>
-<select className='selectflags'  name='language' onChange={onChange}>
-<option value="en">English </option>
-
-
-<option value="fr">French1</option>
-
-
-
-
+{/* Language Switcher Start */}
+<select className='languageSwitcher'  name='language' onChange={onChange}>
+<option value="en">ENG</option>
+<option value="fr">ARM</option>
+<option value="fr">RUS</option>
 </select>
-
-{/* <img className='img111' src={Img1}></img> */}
 
   <h1>{t('welcome')}</h1>
   <h2>{t('changed')}</h2>
   
 </div>
 
-
-
-
-
-
 </div>
-
-
 
 
 }
