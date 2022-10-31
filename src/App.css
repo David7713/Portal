@@ -40,18 +40,6 @@ background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 10
     background: linear-gradient(180deg, rgba(231,231,240,1) 19%, rgba(172,217,255,1) 98%);
 }
 
-.logo{
-    width: 130px;
-    height:120px;
-    /* border: 1px solid black; */
-    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/PortallogoPNG.png");
-   /* margin-top:100px;
-   margin-left:300px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    margin-left:30px;
-}
 
 
 /* .selectflags{

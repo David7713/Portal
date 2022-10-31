@@ -1,5 +1,9 @@
 .Navigation{
-    width: 100%;
-    height: 200px;
-    background-color:red;
+   width: 100%;
+   height: 200px;
+   background: rgb(231,231,240);
+    background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%);
+    border: 1px solid black;
+    display:inline-block;
+    vertical-align: center;
 }

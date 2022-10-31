@@ -25,6 +25,15 @@ import "./styles/Newyork.css"
 import "./styles/About.css"
 import "./styles/Contact.css"
 import "./styles/Error.css"
+
+
+
+
+
+
+
+
+//consts//
 const translationsEn = {welcome:"",
 changed:"Hello and come to paris",
 about:"About"
@@ -50,16 +59,14 @@ i18n
     escapeValue:false},
 });
 
+
+
 const App = () => {
   const { t } = useTranslation();
 
 const onChange = (event) =>{
   i18n.changeLanguage(event.target.value);
 }
-
-
-
-
 
 const [loading,setLoading] = useState(false)
   useEffect(()=>{
@@ -103,7 +110,7 @@ setLoading(false)
 
 
 
-  
+{/* Routers */}
   <Router>
     <Routes>
    
@@ -118,14 +125,16 @@ setLoading(false)
       <Route path="*" element={<Error></Error>}></Route>
     </Routes>
   </Router>
-
-  {/* <Navigation></Navigation> */}
+{/* 
+ Bone */}
   <Carousel></Carousel>
   <Miami></Miami>
   <Newyork></Newyork>
   <Baltimore></Baltimore>
   <About></About> 
   <Contact></Contact>
+
+  
 </div>
 
 </div>
