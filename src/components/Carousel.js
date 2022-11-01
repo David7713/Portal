@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 const Carousel = () => {
   return (
-    <div className='Carousel'>Carousel</div>
+    <div className='Carousel'>
+  
+    </div>
   )
 }
 

@@ -17,9 +17,9 @@ background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 10
 }
 
 .main{
-    width: 100%;
-    height: 800px;
-    vertical-align: auto;
+    /* width: 100%;
+    height: 800px; */
+    /* vertical-align: auto; */
     background: rgb(231,231,240);
     background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%);
 
@@ -58,6 +58,6 @@ background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 10
     font-weight: bolder;;
 }
 
-.selectflags{
+/* .selectflags{
     margin-left:400px;
-}
+} */

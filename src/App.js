@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Baltimore from './components/Baltimore';
 import Error from './components/Error';
+
 //style Imports///
 import "./App.css"
 import "./styles/Spinner.css"
@@ -98,11 +99,11 @@ setLoading(false)
 <div className='main'>
   {/* <div className='logo'></div> */}
 {/* Language Switcher Start */}
-<select className='languageSwitcher'  name='language' onChange={onChange}>
+{/* <select className='languageSwitcher'  name='language' onChange={onChange}>
 <option value="en">ENG</option>
 <option value="fr">ARM</option>
 <option value="fr">RUS</option>
-</select>
+</select> */}
 
   {/* <h1>{t('welcome')}</h1>
   <h2>{t('changed')}</h2> */}
@@ -127,6 +128,8 @@ setLoading(false)
   </Router>
 {/* 
  Bone */}
+
+
   <Carousel></Carousel>
   <Miami></Miami>
   <Newyork></Newyork>
