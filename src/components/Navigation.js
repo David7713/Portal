@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 
@@ -8,7 +8,7 @@ import { useTranslation, initReactI18next } from "react-i18next";
 ///////resources///
 const translationsEng = {
 Miami:"Miami",
-Newyork:"NewYork",
+Newyork:"New York",
 Baltimore:"Baltimore",
 About:"About",
 Contact:"Contact"
@@ -54,6 +54,7 @@ const onChange = (event) =>{
 const Navigation = () => {
   const { t } = useTranslation();
   return (
+    <Suspense fallback="Loading...">
     <div className='Navigation'>
           <a href='#'><div className='logoNavigation'> .</div></a>
           <a href='#'><div  className='miamiNavigation'>  | &nbsp; &nbsp; &nbsp; &nbsp;{t('Miami')}</div></a>
@@ -74,7 +75,7 @@ const Navigation = () => {
     </div>
     
     
-    
+    </Suspense>
   )
 }
 

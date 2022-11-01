@@ -1,25 +1,26 @@
 import React, { Suspense } from 'react'
 import { useState, useEffect } from 'react'
 import CircleLoader from "react-spinners/CircleLoader";
-import i18n from "i18next";
-import { useTranslation, initReactI18next } from "react-i18next";
+// import i18n from "i18next";
+// import { useTranslation, initReactI18next } from "react-i18next";
 //component Imports///
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Navigation from './components/Navigation';
-import Carousel from './components/Carousel';
+
+
 import Miami from './components/Miami';
 import Newyork from './components/Newyork';
 import Contact from './components/Contact';
 import About from './components/About';
 import Baltimore from './components/Baltimore';
 import Error from './components/Error';
-
+import Carousell from './components/Carousell';
 //style Imports///
 import "./App.css"
 import "./styles/Spinner.css"
 import "./styles/LanguageSwitcher.css"
 import "./styles/Navigation.css"
-import "./styles/Carousel.css"
+import "./styles/Carousell.css"
 import "./styles/Miami.css"
 import "./styles/Baltimore.css"
 import "./styles/Newyork.css"
@@ -35,39 +36,39 @@ import "./styles/Error.css"
 
 
 //consts//
-const translationsEn = {welcome:"",
-changed:"Hello and come to paris",
-about:"About"
+// const translationsEn = {welcome:"",
+// changed:"Hello and come to paris",
+// about:"About"
 
 
-}
-const translationsFr = {welcome:"Bievenue!!",
-changed:"Je Pie Di Va sonx paris",
-about:"Abuti"
-}
+// }
+// const translationsFr = {welcome:"Bievenue!!",
+// changed:"Je Pie Di Va sonx paris",
+// about:"Abuti"
+// }
 
 
-i18n
-.use (initReactI18next)
-.init({
-  resources:{
-    en:{translation:translationsEn},
-    fr:{translation:translationsFr},
-  },
-  lng:"en",
-  fallbackLng:"en",
-  interpolation:{
-    escapeValue:false},
-});
+// i18n
+// .use (initReactI18next)
+// .init({
+//   resources:{
+//     en:{translation:translationsEn},
+//     fr:{translation:translationsFr},
+//   },
+//   lng:"en",
+//   fallbackLng:"en",
+//   interpolation:{
+//     escapeValue:false},
+// });
 
 
 
 const App = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
-const onChange = (event) =>{
-  i18n.changeLanguage(event.target.value);
-}
+// const onChange = (event) =>{
+//   i18n.changeLanguage(event.target.value);
+// }
 
 const [loading,setLoading] = useState(false)
   useEffect(()=>{
@@ -77,7 +78,7 @@ setLoading(false)
     },1000)
  },[])
   return (
-    <Suspense fallback="Loading...">
+    // <Suspense fallback="Loading...">
     <div className='App'>
 
 {/* spinner */} 
@@ -129,13 +130,13 @@ setLoading(false)
 {/* 
  Bone */}
 
-
-  <Carousel></Carousel>
-  <Miami></Miami>
+<br></br><br></br>
+<Carousell></Carousell>
+   <Miami></Miami>
   <Newyork></Newyork>
   <Baltimore></Baltimore>
   <About></About> 
-  <Contact></Contact>
+  <Contact></Contact> 
 
   
 </div>
@@ -155,7 +156,7 @@ setLoading(false)
 
 
     </div>
-    </Suspense>
+    // </Suspense>
   )
 }
 
