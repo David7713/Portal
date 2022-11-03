@@ -11,7 +11,9 @@ Miami:"Miami",
 Newyork:"New York",
 Baltimore:"Baltimore",
 About:"About",
-Contact:"Contact"
+Contact:"Contact",
+exploretext1:"Explore a new world",
+exploretext2:"No matter where in the world you want to go, we can help you get there"
 }
 
 
@@ -20,14 +22,18 @@ Miami:"Մայամի",
 Newyork:"Նյու Յորք",
 Baltimore:"Բալթիմոր",
 About:"Մեր Մասին",
-Contact:"Կապ"
+Contact:"Կապ",
+exploretext1:"Բացահայտիր նոր աշխարհ",
+exploretext2:"Անկախ նրանից, թե աշխարհի որտեղ եք ուզում գնալ, մենք կարող ենք օգնել ձեզ հասնել այնտեղ"
 }
 const translationsRus = {
   Miami:"Майами",
   Newyork:"Нью-Йорк",
   Baltimore:"Балтимор",
   About:"О Нас",
-  Contact:"Кантакт"
+  Contact:"Кантакт",
+  exploretext1:"Исследуйте новый мир",
+  exploretext2:"Независимо от того, куда вы хотите отправиться, мы можем помочь вам добраться туда"
   }
 
 
@@ -55,6 +61,7 @@ const Navigation = () => {
   const { t } = useTranslation();
   return (
     <Suspense fallback="Loading...">
+   
     <div className='Navigation'>
           <a href='#'><div className='logoNavigation'> .</div></a>
           <a href='#'><div  className='miamiNavigation'>  | &nbsp; &nbsp; &nbsp; &nbsp;{t('Miami')}</div></a>
@@ -73,9 +80,9 @@ const Navigation = () => {
 
   
     </div>
+     </Suspense>
     
-    
-    </Suspense>
+   
   )
 }
 

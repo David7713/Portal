@@ -4,29 +4,29 @@ import CircleLoader from "react-spinners/CircleLoader";
 // import i18n from "i18next";
 // import { useTranslation, initReactI18next } from "react-i18next";
 //component Imports///
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
 import Navigation from './components/Navigation';
-
-
 import Miami from './components/Miami';
 import Newyork from './components/Newyork';
 import Contact from './components/Contact';
 import About from './components/About';
 import Baltimore from './components/Baltimore';
 import Error from './components/Error';
-import Carousell from './components/Carousell';
+import Card from './components/Card';
+import Explore from './components/Explore';
+
 //style Imports///
 import "./App.css"
 import "./styles/Spinner.css"
-import "./styles/LanguageSwitcher.css"
 import "./styles/Navigation.css"
-import "./styles/Carousell.css"
+import "./styles/Card.css"
 import "./styles/Miami.css"
 import "./styles/Baltimore.css"
 import "./styles/Newyork.css"
 import "./styles/About.css"
 import "./styles/Contact.css"
 import "./styles/Error.css"
+import "./styles/Explore.css"
 
 
 
@@ -95,7 +95,7 @@ setLoading(false)
   />
     :
   //// SPINNER ENDS
-<div>
+
 
 <div className='main'>
   {/* <div className='logo'></div> */}
@@ -119,6 +119,7 @@ setLoading(false)
       <Route path='home' element={<App></App>}></Route>
       <Route path='/' element={<Navigation></Navigation>}></Route>
       <Route path='miami' element={<Miami></Miami>}></Route>
+  
       <Route path='newyork' element={<Newyork></Newyork>}></Route>
       <Route path='baltimore' element={<Baltimore></Baltimore>}></Route>
       <Route path='about' element={<About></About>}></Route>
@@ -131,29 +132,18 @@ setLoading(false)
  Bone */}
 
 <br></br><br></br>
-<Carousell></Carousell>
-   <Miami></Miami>
-  <Newyork></Newyork>
-  <Baltimore></Baltimore>
-  <About></About> 
-  <Contact></Contact> 
 
-  
+      <Card></Card>
+      <Explore></Explore>
+      <Miami></Miami>
+      <Newyork></Newyork>
+      <Baltimore></Baltimore>
+      <About></About> 
+      <Contact></Contact> 
+
 </div>
-
-</div>
-
-
-
-
-
-
-
-
-
 
 }
-
 
     </div>
     // </Suspense>

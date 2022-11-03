@@ -1,19 +1,12 @@
 .Navigation{
     width: 100%;
     height: 130px;
-    background: rgb(231,231,240);
-    background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%);
+    /* background: rgb(231,231,240);
+    background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%); */
+    background-color: white;
     position: fixed;
+    z-index: 1;
 }
-
-/* 
-.logoNavigation{
-   width: 150px;
-    height: 100px;
-    display: inline-block;
-    vertical-align: center;
-    border: 1px solid black;
-} */
 
 .logoNavigation{
     display: inline-block;
@@ -68,14 +61,12 @@
     color:gray;
     width: 10%;
     height: 130px;
-   
     text-align: center;
     padding-top: 50px;
 }
 .contactNavigation{
     display: inline-block;
     vertical-align: center;
-
     color:gray;
     font-family: 'Open Sans', sans-serif;
     width: 10%;
@@ -92,13 +83,13 @@
     height: 130px;
     text-align: center;
     padding-top: 50px;
-   
 }
 .languageSwitcher{
     font-size: 16px;
     color:gray;
-    background: rgb(231,231,240);
-    background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%);
+    /* background: rgb(231,231,240);
+    background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%); */
+    background-color: white;
     cursor: pointer;
 }
 
@@ -110,12 +101,11 @@
 .contactNavigation::after{
     content: "";
     position: absolute;
-    background-color:#e7e7f0;
+    background-color:#acd9ff;
     height: 3px;
     width: 0;
     left: 0;
     bottom: 45px;
-
 }
 
 .contactNavigation:hover::after{
@@ -125,18 +115,14 @@
 }
 
 
-
-
-
-
-.baltimoreNavigation{
+.baltimoreNavigation {
     position: relative;
     text-decoration: none;
 }
 .baltimoreNavigation::after{
     content: "";
     position: absolute;
-    background-color:#e7e7f0;
+    background-color:#acd9ff;
     height: 3px;
     width: 0;
     left: 0;
@@ -149,10 +135,6 @@
     transition: 0.6s;
 }
 
-
-
-
-
 .newyorkNavigation{
     position: relative;
     text-decoration: none;
@@ -160,7 +142,7 @@
 .newyorkNavigation::after{
     content: "";
     position: absolute;
-    background-color:#e7e7f0;
+    background-color:#acd9ff;
     height: 3px;
     width: 0;
     left: 0;
@@ -174,10 +156,6 @@
 }
 
 
-
-
-
-
 .miamiNavigation{
     position: relative;
     text-decoration: none;
@@ -185,7 +163,7 @@
 .miamiNavigation::after{
     content: "";
     position: absolute;
-    background-color:#e7e7f0;
+    background-color:#acd9ff;
     height: 3px;
     width: 0;
     left: 0;
@@ -199,11 +177,6 @@
 }
 
 
-
-
-
-
-
 .aboutNavigation{
     position: relative;
     text-decoration: none;
@@ -211,7 +184,7 @@
 .aboutNavigation::after{
     content: "";
     position: absolute;
-    background-color:#e7e7f0;
+    background-color:#acd9ff;
     height: 3px;
     width: 0;
     left: 0;

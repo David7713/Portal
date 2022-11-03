@@ -1,14 +1,3 @@
-/* .davo{
-    display:inline-block;
-    vertical-align: center;
-    background: rgb(231,231,240);
-background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 100%);
-    width: 100%;
-    height: 700px;
-   font-size: 60px;
-  color:hsla(0, 0%, 100%, 0.763);
-  
-} */
 
 *{
     margin:0px;
@@ -16,14 +5,11 @@ background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 10
     box-sizing: border-box;
 }
 
-.main{
-    /* width: 100%;
-    height: 800px; */
-    /* vertical-align: auto; */
+/* .main{
     background: rgb(231,231,240);
     background: linear-gradient(183deg, rgba(231,231,240,1) 7%, rgba(172,217,255,1) 87%);
 
-}
+} */
 
 .b{
     width: 100%;
@@ -39,25 +25,3 @@ background: linear-gradient(4deg, rgba(231,231,240,1) 0%, rgba(172,217,255,1) 10
     background: rgb(231,231,240);
     background: linear-gradient(180deg, rgba(231,231,240,1) 19%, rgba(172,217,255,1) 98%);
 }
-
-
-
-/* .selectflags{
-    width: 300px;
-    height: 140px;
-} */
-.img111{
-    width: 100%;
-    height: 100%;
-}
-
-.navbar{
-    display:inline-block;
-    margin-left:100px;
-    color:red;
-    font-weight: bolder;;
-}
-
-/* .selectflags{
-    margin-left:400px;
-} */
