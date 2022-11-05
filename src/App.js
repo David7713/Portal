@@ -133,7 +133,7 @@ setLoading(false)
 
 <br></br><br></br>
 
-      <Card></Card>
+      {/* <Card></Card> */}
       <Explore></Explore>
       <Miami></Miami>
       <Newyork></Newyork>

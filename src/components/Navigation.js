@@ -13,7 +13,18 @@ Baltimore:"Baltimore",
 About:"About",
 Contact:"Contact",
 exploretext1:"Explore a new world",
-exploretext2:"No matter where in the world you want to go, we can help you get there"
+exploretext2:"No matter where in the world you want to go, we can help you get there",
+Tourtomiami:"TOUR TO MIAMI",
+Pricemiami:"Price 1.500 USD",
+Durationmiami:"DURATION",
+Groupsizemiami:"Group Size",
+Accommondationmiami:"Accommondation",
+Bestperiodmiami:"Best Period",
+Startendmiami:"Start/End",
+Sevendaysmiami:"8Days/7Nights",
+Hotelmiami:"Hotel",
+Summermiami:"Summer",
+Yerevanmiami:"Yerevan/Yerevan"
 }
 
 
@@ -24,7 +35,19 @@ Baltimore:"Բալթիմոր",
 About:"Մեր Մասին",
 Contact:"Կապ",
 exploretext1:"Բացահայտիր նոր աշխարհ",
-exploretext2:"Անկախ նրանից, թե աշխարհի որտեղ եք ուզում գնալ, մենք կարող ենք օգնել ձեզ հասնել այնտեղ"
+exploretext2:"Անկախ նրանից, թե աշխարհի որտեղ եք ուզում գնալ, մենք կարող ենք օգնել ձեզ հասնել այնտեղ",
+Tourtomiami:"ՏՈՒՐ ԴԵՊԻ ՄԱՅԱՄԻ",
+Pricemiami:"Գինը՝ 1.500 USD",
+Durationmiami:"ՏԵՎՈՂՈՒԹՅՈՒՆԸ",
+Groupsizemiami:"ՔԱՆԱԿԸ",
+Accommondationmiami:"Բնակության Վայր",
+Bestperiodmiami:"ԼԱՎ ՍԵԶՈՆ",
+Startendmiami:"ՍԿԻԶԲ/ԱՎԱՐՏ",
+Sevendaysmiami:"8օր/7գիշեր",
+Hotelmiami:"ՀՅՈՒՐԱՆՈՑ",
+Summermiami:"ԱՄԱՌ",
+Yerevanmiami:"Երևան/Երևան"
+
 }
 const translationsRus = {
   Miami:"Майами",
@@ -33,7 +56,18 @@ const translationsRus = {
   About:"О Нас",
   Contact:"Кантакт",
   exploretext1:"Исследуйте новый мир",
-  exploretext2:"Независимо от того, куда вы хотите отправиться, мы можем помочь вам добраться туда"
+  exploretext2:"Независимо от того, куда вы хотите отправиться, мы можем помочь вам добраться туда",
+  Tourtomiami:"ТУР В МАЙАМИ",
+  Pricemiami:"Цена: 1.500 USD",
+  Groupsizemiami:"КОЛ.ЧЕЛОВЕК",
+  Accommondationmiami:"ПРОЖИВАНИЕ",
+  Bestperiodmiami:"ЛУЧШИЙ ПЕРИОД",
+  Startendmiami:"НАЧАЛО/КОНЕЦ",
+  Sevendaysmiami:"8 дней/7 ночей",
+  Hotelmiami:"ОТЕЛЬ",
+  Summermiami:"Лето",
+  Yerevanmiami:"Ереван/Ереван"
+
   }
 
 
