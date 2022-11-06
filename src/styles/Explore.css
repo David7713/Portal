@@ -25,23 +25,23 @@
     /* border: 1px solid black; */
     margin-top:130px;
     font-family: 'Montserrat', sans-serif;
+    color:#acd9ff;
     padding-top:100px;
     font-size: 30px;
-    color:#acd9ff;
 }
 .exploretext2{
     color:gray;
     font-size: 16px;
 }
 
-.moreinfo{
+/* .moreinfo{
     width: 70px;
     height: 30px;
     border: 1px solid black;
     font-size: 16px;
     color:black;
     margin-top:30px
-}
+} */
 .duu{
     width: 500px;
     height: 200px;
@@ -51,4 +51,29 @@
     width: 100px;
     height: 100px;
     background-color:yellow;
+}
+
+.explorebutton{
+    width: 160px;
+    height: 35px;
+    margin-top:30px;
+    border:1px solid #acd9ff;
+    background-color:#acd9ff;
+    color:white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-left:37px;
+    padding-top:3px;
+    cursor: pointer;
+    margin-left:40px;
+  
+}
+a{
+    text-decoration: none;
+}
+
+.explorebutton:hover{
+    background-color:hwb(207 36% 10%);
+    transition: 1s;
 }

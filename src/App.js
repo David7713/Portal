@@ -14,6 +14,8 @@ import Baltimore from './components/Baltimore';
 import Error from './components/Error';
 import Card from './components/Card';
 import Explore from './components/Explore';
+import Offer from './components/Offer';
+import Numbers from './components/Numbers';
 
 //style Imports///
 import "./App.css"
@@ -27,6 +29,8 @@ import "./styles/About.css"
 import "./styles/Contact.css"
 import "./styles/Error.css"
 import "./styles/Explore.css"
+import "./styles/Offer.css"
+import "./styles/Numbers.css"
 
 
 
@@ -113,19 +117,22 @@ setLoading(false)
 
 
 {/* Routers */}
+
+
+
   <Router>
     <Routes>
    
       <Route path='home' element={<App></App>}></Route>
       <Route path='/' element={<Navigation></Navigation>}></Route>
-      <Route path='miami' element={<Miami></Miami>}></Route>
+      <Route path='/miami' element={<Miami></Miami>}></Route>
   
-      <Route path='newyork' element={<Newyork></Newyork>}></Route>
-      <Route path='baltimore' element={<Baltimore></Baltimore>}></Route>
-      <Route path='about' element={<About></About>}></Route>
+      <Route path='/newyork' element={<Newyork></Newyork>}></Route>
+      <Route path='/baltimore' element={<Baltimore></Baltimore>}></Route>
+      <Route path='/about' element={<About></About>}></Route>
       <Route path='contact' element={<Contact></Contact>}></Route>
 
-      <Route path="*" element={<Error></Error>}></Route>
+      {/* <Route path="*" element={<Error></Error>}></Route> */}
     </Routes>
   </Router>
 {/* 
@@ -135,11 +142,14 @@ setLoading(false)
 
       {/* <Card></Card> */}
       <Explore></Explore>
-      <Miami></Miami>
-      <Newyork></Newyork>
-      <Baltimore></Baltimore>
+      <Offer></Offer>
+      <Numbers></Numbers>
+      {/* <Miami></Miami> */}
+      {/* <Newyork></Newyork>
+      <Baltimore></Baltimore> */}
       <About></About> 
       <Contact></Contact> 
+  
 
 </div>
 

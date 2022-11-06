@@ -1,0 +1,96 @@
+.Numbers{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Mainnumbers{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red;; */
+    background: rgb(231,231,240);
+    background: linear-gradient(180deg, rgba(231,231,240,1) 19%, rgba(172,217,255,1) 98%);
+
+    margin-top:60px
+}
+
+.Number1{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left:38px;
+    margin-top:20px;
+}
+
+.Number2{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left:38px;
+    margin-top:20px;
+}
+
+.Number3{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left:38px;
+    margin-top:20px;
+}
+
+.Number4{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left:38px;
+    margin-top:20px;
+}
+
+.Number5{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-left:38px;
+    margin-top:20px;
+}
+
+
+
+.Numbericon{
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid black; */
+    margin-left:80px;
+    margin-top:30px;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+
+}
+
+.Number1numbers{
+    margin-left:90px;
+    font-size: 50px;
+    font-weight: 900;
+    /* margin-top:10px; */
+    color:white;
+}
+
+.NumberText{
+    margin-left:65px;
+    /* margin-top:40px; */
+    font-size: 30px;;
+    color:white;
+
+}

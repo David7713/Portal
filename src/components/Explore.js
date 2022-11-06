@@ -29,7 +29,7 @@ const Explore = () => {
     <div className='exploretext'> <h1>{t("exploretext1")}</h1>
     <p className='exploretext2'>{t("exploretext2")}</p>
     
-  
+     <a href='https://earth.google.com/web/@-76.85117272,70.67049971,3150.13163325a,2533898.85103047d,35y,333.37270327h,0t,0r/data=CjkSNxIgZDY1OGRjYWIzNjlhMTFlOGFjNmU2OWJjN2I2ZDI2Y2EiE2xheWVyXzNkY292ZXJfcGFuZWw' target="blank"> <div className='explorebutton'>{t("exploretext3")}</div></a>
     </div>
 
 

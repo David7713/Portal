@@ -1,0 +1,154 @@
+.Offer{
+    width: 100%;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.Ouroffers{
+    width: 100%;
+    height: 500px;
+    display:inline-block;
+    vertical-align: top;
+    margin-top:100px;
+}
+
+.Ouroffer1{
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    vertical-align: top;
+    box-shadow: 2px 1px#acd9ff;
+    margin-top:100px;
+    margin-left:300px;
+    border-radius: 13px;
+}
+.Ouroffer2{
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    vertical-align: top;
+    box-shadow: 2px 1px#acd9ff;
+    margin-top:100px;
+    margin-left:50px;
+    border-radius: 13px;
+}
+.Ouroffer3{
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    vertical-align: top;
+    box-shadow: 2px 1px#acd9ff;
+    margin-top:100px;
+    margin-left:50px;
+    border-radius: 13px;
+}
+.Ouroffer4{
+    width: 400px;
+    height: 300px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:50px;
+    margin-top:100px;
+    border-radius: 13px;
+ 
+}
+
+.divIcon{
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 1px#acd9ff;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:#ffdb3d;
+    padding: 10px;
+}
+
+
+
+
+.Ouroffer1Text1{
+    font-size: 20px;
+    padding: 20px;
+    color:gray;
+}
+.Ouroffer1Text2{
+    font-size: 14px;
+    padding: 13px;
+    color:gray;
+}
+
+
+
+
+.Ouroffer2Text1{
+    font-size: 20px;
+    padding: 20px;
+    color:gray;
+}
+.Ouroffer2Text2{
+    font-size: 14px;
+    padding: 13px;
+    color:gray;
+}
+
+.Ouroffer3Text1{
+    font-size: 20px;
+    padding: 20px;
+    color:gray;
+}
+.Ouroffer3Text2{
+    font-size: 14px;
+    padding: 13px;
+    color:gray;
+}
+
+
+
+
+
+.Ouroffer4Text1{
+    font-size: 50px;
+    font-weight: 600;
+   color: #acd9ff;
+}
+.Ouroffer4Text2{
+    font-size: 14px;
+ 
+    color:gray;
+}
+.icondiamond{
+    color:#b9f2ff ;
+    font-size:50px;
+    cursor: pointer;
+
+}
+
+.moreInfoAboutUs{
+    width: 160px;
+    height: 35px;
+    margin-top:30px;
+    border:1px solid #acd9ff;
+    background-color:#acd9ff;
+    color:white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-left:45px;
+    padding-top:3px;
+    cursor: pointer;
+    margin-left:40px;
+  
+}
+
+
+.moreInfoAboutUs:hover{
+    background-color:hwb(207 36% 10%);
+    transition: 1s;
+}
+
+
+
+
