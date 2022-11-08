@@ -26,14 +26,14 @@ const Miami = () => {
     
     <div className='descriptiontable'>
     
-    <div className='durationMiami'><BsAlarm className='icon'></BsAlarm><br></br>{t('Durationmiami')}<br></br><label className='subtext'>{t('Sevendaysmiami')}</label></div>
-    <div className='groupsizeMiami'><AiOutlineUsergroupDelete className='icon'></AiOutlineUsergroupDelete><br></br>{t('Groupsizemiami')}<br></br><label className='subtext1'>
+    <div className='durationMiami'><BsAlarm className='icon'></BsAlarm><br></br>{t('Duration')}<br></br><label className='subtext'>{t('Sevendaysmiami')}</label></div>
+    <div className='groupsizeMiami'><AiOutlineUsergroupDelete className='icon'></AiOutlineUsergroupDelete><br></br>{t('Groupsize')}<br></br><label className='subtext1'>
       +1</label></div>
-    <div className='accommodationMiami'><RiHotelLine className='icon1'></RiHotelLine><br></br>{t('Accommondationmiami')}<br></br><label className='subtext2'>
+    <div className='accommodationMiami'><RiHotelLine className='icon1'></RiHotelLine><br></br>{t('Accommondation')}<br></br><label className='subtext2'>
     {t('Hotelmiami')}</label></div>
-    <div className='bestperiodMiami'><WiDaySunny className='icon5'></WiDaySunny><br></br>{t('Bestperiodmiami')}<br></br><label className='subtext1'>
+    <div className='bestperiodMiami'><WiDaySunny className='icon5'></WiDaySunny><br></br>{t('Bestperiod')}<br></br><label className='subtext1'>
     {t('Summermiami')}</label></div>
-    <div className='startendMiami'><SlDirections className='icon2'></SlDirections><br></br>{t('Startendmiami')}<br></br><label className='subtext'>
+    <div className='startendMiami'><SlDirections className='icon2'></SlDirections><br></br>{t('Startend')}<br></br><label className='subtext'>
     {t('Yerevanmiami')}</label></div>
     </div>
     <div className='imagesmiami'>
@@ -45,19 +45,19 @@ const Miami = () => {
     </div>
 
            
-      <button onClick={()=>{setShowdescription(!showdescription)}} className='descriptionmiami'> {t('Descriptionmiami')}</button>
+      <button onClick={()=>{setShowdescription(!showdescription)}} className='descriptionmiami'> {t('Descriptionbtn')}</button>
       {showdescription && <div className='descriptiontextmiami'>
         
         <p className='maindescriptionmiami'>{t('Maindescriptionmiami')}
     </p>
     <p className='priceincludesmiami'>
-    {t('Priceincludesmiami')}
+    {t('Priceincludes')}
       <li> {t('Hotelmiami')}</li>
-      <li>{t('Airticketsmiami')}</li>
-      <li>{t('Excrusionsmiami')}</li>
-      <li>{t('Transfermiami')}</li>
-      <li>{t('Foodmiami')}</li>
-      <li>{t('Insurancemiami')}</li>
+      <li>{t('Airtickets')}</li>
+      <li>{t('Excrusions')}</li>
+      <li>{t('Transfer')}</li>
+      <li>{t('Food')}</li>
+      <li>{t('Insurance')}</li>
 
     </p>
         

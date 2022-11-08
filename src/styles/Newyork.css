@@ -1,10 +1,257 @@
+
 .Newyork{
     width: 100%;
-    height: 700px;
-    border: 2px solid black;
+    height: 1700px;
 }
-/* .contentStyle{
+.Newyorkk{
+    width: 100%;
+    height: 1700px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Newyorkk{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.tourtonewyork{
+    margin-left: 40%;
+    margin-top:70px;
+    font-size: 30px;
+    color: #acd9ff;
+    
+}
+
+.linenewyork{
     width: 300px;
+    height: 2.5px;
+    background-color:gray;
+    margin-left: 38.5%;
+    margin-top: 14px;
+}
+.pricenewyork{
+    margin-left: 40%;
+    font-size: 30px;
+    margin-top:20px;
+    color:gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.descriptiontable{
+    display: inline-block;
+    padding-top: 100px;
+    margin-left:340px;
+   
+}
+.durationNewyork{
+    display:inline-block;
+    vertical-align: center;
+    width: 130px;
+    height: 130px;
+    margin-right: 40px;
+    font-size: 14px;
+    color:#acd9ff;
+    padding-left:55px
+
+
+
+}   
+
+
+.groupsizeNewyork{
+    display:inline-block;
+    vertical-align: center;
+    width: 130px;
+    height: 130px;  
+    margin-right: 30px;
+    font-size: 14px;
+    color:#acd9ff;
+    padding-left:30px
+
+
+}
+
+.accommodationNewyork{
+    display:inline-block;
+    vertical-align: center;
+    width: 130px;
+    height: 130px;
+
+       margin-right: 50px;
+    font-size: 14px;
+    color:#acd9ff;
+    padding-left:10px
+
+}
+
+.bestperiodNewyork{
+    display:inline-block;
+    vertical-align: center; 
+    margin-right: 50px;
+    width: 130px;
+    height: 130px;
+    margin-top:10px;
+    font-size: 14px;
+    color:#acd9ff;
+    padding-left:20px
+
+}
+
+.startendNewyork{
+   display:inline-block;
+   vertical-align: center;
+   width: 130px;
+   height: 130px;
+
+   margin-right: 50px ;
+   font-size: 14px;
+   color:#acd9ff;
+   padding-left:10px
+   
+
+}
+
+
+
+/* ICONS */
+
+.icon{
+    color:#acd9ff;
+    margin-top:20px;
+    margin-left:5px;
+    font-size: 60px;
+}
+.icon1{
+    color:#acd9ff;
+    margin-top:20px;
+    margin-left:25px;
+    font-size: 60px;
+}
+.icon2{
+    color:#acd9ff;
+    margin-top:20px;                         
+    margin-right: 10px;
+    font-size: 65px;
+}
+.icon5{
+    color:#ffdb3d;
+    margin-top:20px;                         
+    margin-right: 10px;
+    font-size: 65px;
+}
+
+/* subtexts */
+
+.subtext{
+    color:gray;
+    font-size: 12px;
+    margin-top:10px;
+    text-align: center;
+}
+.subtext1{
+    color:gray;
+    font-size: 12px;
+    margin-top:10px;
+    text-align: center;
+    margin-left:15px;
+}
+.subtext2{
+    color:gray;
+    font-size: 12px;
+    margin-top:10px;
+    text-align: center;
+    margin-left:40px;
+}
+
+/* images */
+.imagesnewyork{
+    margin-left: 300px;
+    margin-top:100px;
+}
+.imagesofnewyork1{
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/Newyorkimages/Hotelnewyork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.imagesofnewyork2{
+    display:inline-block;
+    width: 250px;
+    height: 250px;;
+    margin: 30px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/Newyorkimages/Newyorkcity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.imagesofnewyork3{
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/Newyorkimages/Newyorkcity2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.imagesofnewyork3:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+    
+}
+.imagesofnewyork2:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+    
+}
+.imagesofnewyork1:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+    
+}
+
+.descriptionnewyork{
+            width: 300px;
+            height: 40px;
+            background-color: #acd9ff;
+            border: 1px solid #acd9ff;
+            color:white;
+            font-size: 17px;;
+            margin-left:620px;
+            cursor:pointer;
+            
+}
+
+.descriptiontextnewyork{
+    width: 600px;
     height: 300px;
-    background-color:REd;
-} */
+    /* border: 1px solid black; */
+    margin-left: 450px;
+    margin-top:50px;
+}
+
+.descriptionnewyork:hover{
+    background-color:hwb(207 36% 10%);
+    transition: 1s;
+}
+.priceincludesnewyork{
+    margin-left:100px;
+    margin-top:30px;
+}
+li{
+   margin-top:6px;
+   text-decoration: #acd9ff;
+}
+.mapofnewyork{
+    margin-left:400px;
+    margin-top:100px;
+  
+}

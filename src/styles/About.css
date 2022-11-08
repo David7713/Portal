@@ -1,5 +1,129 @@
 .About{
     width: 100%;
-    height: 700px;
-    /* border: 2px solid black; */
+    height: 1900px;
+    display: inline-block;;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
+
+
+.aboutustext{
+    margin-left:45%;
+    margin-top:70px;
+    font-size: 35px;
+    color: #acd9ff;
+    width: 600px;
+    
+}
+
+
+   .lineabout{
+   width: 160px;
+   height: 2.5px;
+   background-color: gray;
+   margin-right: 300px;;
+
+
+}
+
+
+
+
+
+ .Mainabout{
+    width: 100%;
+    height: 800px;
+    margin-top:100px;
+ }
+
+ .leftside{
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:80px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/Aboutus/aboutusimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ .rightside{
+    width: 600px;
+    height: 300px;
+ 
+    display: inline-block;
+    vertical-align: top;
+    margin-top:50px;
+    margin-left:50px;
+    
+ }
+
+
+ .rightsidetext1{
+    color:#acd9ff;
+    font-size: 30px;;
+    text-align: center;
+    padding: 40px;;
+   
+ 
+ }
+
+
+ .rightsidetext2{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+ }
+
+
+
+ .Mainabout2{
+    width: 100%;
+    height: 500px;
+ }
+
+
+ .leftside2{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 400px;
+ 
+    margin-left:130px;
+  
+ }
+
+
+ 
+ .rightside2{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 400px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/Aboutus/aboutimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:250px;
+
+ }
+
+ .leftsidetext1{
+    text-align: center;
+    font-size: 30px;
+    color:#acd9ff;
+    
+ }
+
+ .aboutlist{
+    list-style-type: none;
+ }
+
+ .ouradventages{
+    color:#ffd700;
+    font-size: 17px;;
+    margin-top:30px;
+ }
