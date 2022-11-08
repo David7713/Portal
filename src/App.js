@@ -143,11 +143,11 @@ setLoading(false)
       {/* <Card></Card> */}
       <Explore></Explore>
       <Offer></Offer>
-      <Numbers></Numbers>
       {/* <Miami></Miami> */}
       {/* <Newyork></Newyork>
       <Baltimore></Baltimore> */}
       <About></About> 
+      {/* <Numbers></Numbers> */}
       <Contact></Contact> 
   
 
