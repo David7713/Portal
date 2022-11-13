@@ -5,7 +5,7 @@ import { useTranslation, initReactI18next } from "react-i18next";
 const About = () => {
   const { t } = useTranslation();
   return (
-    <div className='About' data-aos="fade-right">
+    <div className='About' data-aos="zoom-in">
            <div className='aboutustext'>
            {t('Aboutus')}
                         <div className='lineabout'></div>
@@ -22,7 +22,7 @@ const About = () => {
       </div>
      </div>
 
-        <div className='Mainabout2' data-aos="fade-left">
+        <div className='Mainabout2' data-aos="zoom-in-up">
           <div className='leftside2'>
             <p className='leftsidetext1'>
             {t('Advantages')}  

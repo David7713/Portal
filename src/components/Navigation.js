@@ -71,7 +71,16 @@ Teamwork:"Teamwork",
 Flexibility:"Flexibility and willingness to accept change",
 Recognizing :"Recognizing and learning from mistakes",
 Risk:"Risk-taking",
-Quality:"Quality care"
+Quality:"Quality care",
+
+//Baltimore
+Tourtobaltimore:"TOUR TO BALTIMORE",
+Pricebaltimore:"Price՝2.500 USD",
+Sevendaysbaltimore:"7days/6 Night",
+Hotelbaltimore:" Wingate by Wyndham  ",
+Summerbaltimore:"Summer/Winter",
+Yerevanbaltimore:"Yerevan/Yerevan",
+Maindescriptionbaltimore:"Hotels, restaurants, attractions and other businesses across Baltimore are coming together to show the world that Charm City is committed to supporting and embracing diversity, equity and inclusion, and fostering a welcoming environment for ALL travelers, no matter who they are or where they come from.",
 
 
 }
@@ -139,8 +148,16 @@ Teamwork:"Թիմային աշխատանք",
 Flexibility:"Ճկունություն և փոփոխություն ընդունելու պատրաստակամություն",
 Recognizing :"Սխալների ճանաչում և սովորում",
 Risk:"Ռիսկի ընդունում",
-Quality:"Որակյալ խնամք"
+Quality:"Որակյալ խնամք",
 
+//Baltimore
+Tourtobaltimore:"ՏՈՒՐ ԴԵՊԻ ԲԱԼԹԻՄՈՐ",
+Pricebaltimore:"Գինը՝2.500 USD",
+Sevendaysbaltimore:"7Оր/6 Գիշեր",
+Hotelbaltimore:" Wingate by Wyndham  ",
+Summerbaltimore:"Ամառ/Ձմեռ",
+Yerevanbaltimore:"Երևան/Երևան",
+Maindescriptionbaltimore:"Հյուրանոցները, ռեստորանները, տեսարժան վայրերը և այլ բիզնեսները Բալթիմորում հավաքվում են՝ ցույց տալու աշխարհին, որ Charm City-ն հավատարիմ է բազմազանությանը, հավասարությանը և ընդգրկմանը աջակցելուն և ընդգրկելուն և խրախուսելու հյուրընկալ միջավայր ԲՈԼՈՐ ճանապարհորդների համար՝ անկախ նրանից, թե ովքեր են նրանք և որտեղիցեն նրանք գալիս",
 
 }
 const translationsRus = {
@@ -206,7 +223,16 @@ const translationsRus = {
   Flexibility:"Гибкость и готовность к изменениям",
   Recognizing :"Признание и обучение на ошибках",
   Risk:"Рисковать",
-  Quality:"Качественный уход"
+  Quality:"Качественный уход",
+
+ //Baltimore
+  Tourtobaltimore:"ТУР В БАЛТИМОР",
+Pricebaltimore:"Цена:2.500 USD",
+Sevendaysbaltimore:"7 дней/6 ночей",
+Hotelbaltimore:" Wingate by Wyndham ",
+Summerbaltimore:"Лето/Зима",
+Yerevanbaltimore:"Ереван/Ереван",
+Maindescriptionbaltimore:"Отели, рестораны, аттракционы и другие предприятия по всему Балтимору собираются вместе, чтобы показать миру, что Charm City стремится поддерживать и принимать разнообразие, справедливость и инклюзивность, а также создавать благоприятную среду для ВСЕХ путешественников, независимо от того, кто они и откуда они. из.",
   
   }
 
@@ -237,7 +263,7 @@ const Navigation = () => {
     <Suspense fallback="Loading...">
    
     <div className='Navigation'>
-          <Link to='/'><div className='logoNavigation'> .</div></Link>
+          <Link to='/'><div className='logoNavigation'>. </div></Link>
           <Link to='/miami'><div  className='miamiNavigation'>  | &nbsp; &nbsp; &nbsp; &nbsp;{t('Miami')}</div></Link>
           <Link to='/newyork'><div  className='newyorkNavigation'>| &nbsp; &nbsp; &nbsp; &nbsp;{t('Newyork')}</div></Link>
           <Link to='/baltimore'><div  className='baltimoreNavigation'>| &nbsp; &nbsp; &nbsp; &nbsp;{t('Baltimore')}</div></Link>
