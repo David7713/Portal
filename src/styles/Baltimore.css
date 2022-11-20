@@ -159,7 +159,7 @@
 .descriptionbaltimore{
     width: 300px;
     height: 40px;
-    background-color: #acd9ff;
+    background-color:hwb(207 36% 10%);
     border: 1px solid #acd9ff;
     color:white;
     font-size: 17px;;
@@ -177,8 +177,7 @@ margin-top:50px;
 }
 
 .descriptionbaltimore:hover{
-background-color:hwb(207 36% 10%);
-transition: 1s;
+color:#acd9ff
 }
 .priceincludesbaltimore{
 margin-left:100px;

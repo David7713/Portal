@@ -1,5 +1,64 @@
 .Error{
     width: 100%;
-    height: 700px;
+    height: 750px;
     border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.Error-Main{
+    width: 700px;
+    height: 750px;
+
+    margin-left:250px;
+    margin-top:80px;
+    display:inline-block;
+    vertical-align: top;
+}
+.Error-text{
+    font-size: 30px;;
+    margin-left:130px;
+    color: #acd9ff;
+}
+#oops{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 30px;
+    color: #b9f2ff;
+}
+
+#errornumber{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 280px;;
+    padding: 20px;;
+    color:#f9d71c
+}
+
+.Error-text2{
+    font-size: 20px;;
+    margin-left:140px;
+    color:gray;
+    
+}
+
+.Home-div{
+    margin-left:240px;
+    margin-top:30px;
+    width: 170px;
+    height: 40px;;
+    border:1px solid #acd9ff;
+    background-color:hwb(207 36% 10%);;
+    color:white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+   text-align: center;
+   padding: 6px;
+}
+
+.Home-div:hover{
+
+    color:#acd9ff;
 }

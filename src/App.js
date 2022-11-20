@@ -132,7 +132,7 @@ setLoading(false)
       <Route path='/about' element={<About></About>}></Route>
       <Route path='contact' element={<Contact></Contact>}></Route>
 
-      {/* <Route path="*" element={<Error></Error>}></Route> */}
+      <Route path="*" element={<Error></Error>}></Route>
     </Routes>
   </Router>
 {/* 

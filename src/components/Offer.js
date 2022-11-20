@@ -2,7 +2,7 @@ import React from 'react'
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import { MdOutlineTravelExplore} from 'react-icons/md';
-
+import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
 import { BsBookmarkHeart} from 'react-icons/bs';
 import { GiCutDiamond} from 'react-icons/gi';
 import { TbBeach} from 'react-icons/tb';
@@ -19,7 +19,7 @@ const Offer = () => {
         <div className='Ouroffer4'> 
             <p className='Ouroffer4Text1'> {t('Offerbestservice')}<GiCutDiamond className='icondiamond'></GiCutDiamond></p>
                 <p className='Ouroffer4Text2'> {t('Offerbestservice2')}</p>
-                        <div className='moreInfoAboutUs'>{t('Moreinfo')}</div>
+             <a href='#about'><div className='moreInfoAboutUs'>{t('Moreinfo')}</div></a> 
     
     
           </div>  

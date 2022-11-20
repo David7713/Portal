@@ -8,7 +8,7 @@ const About = () => {
     <div className='About' data-aos="zoom-in">
            <div className='aboutustext'>
            {t('Aboutus')}
-                        <div className='lineabout'></div>
+                        <div className='lineabout' ></div>
        </div>
 
      <div className='Mainabout'>
@@ -21,8 +21,8 @@ const About = () => {
         </div>
       </div>
      </div>
-
-        <div className='Mainabout2' data-aos="zoom-in-up">
+     <Numbers></Numbers>
+        <div className='Mainabout2' data-aos="zoom-in-up"><a  name="about"></a>
           <div className='leftside2'>
             <p className='leftsidetext1'>
             {t('Advantages')}  
@@ -41,7 +41,7 @@ const About = () => {
           <div className='rightside2'></div>
       </div>
 
-<Numbers></Numbers>
+
     </div>
   )
 }

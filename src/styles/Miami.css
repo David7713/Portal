@@ -216,7 +216,7 @@
 .descriptionmiami{
             width: 300px;
             height: 40px;
-            background-color: #acd9ff;
+            background-color:hwb(207 36% 10%);
             border: 1px solid #acd9ff;
             color:white;
             font-size: 17px;;
@@ -234,8 +234,8 @@
 }
 
 .descriptionmiami:hover{
-    background-color:hwb(207 36% 10%);
-    transition: 1s;
+   color:acd9ff
+   
 }
 .priceincludesmiami{
     margin-left:100px;

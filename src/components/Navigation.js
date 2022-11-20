@@ -81,8 +81,12 @@ Hotelbaltimore:" Wingate by Wyndham  ",
 Summerbaltimore:"Summer/Winter",
 Yerevanbaltimore:"Yerevan/Yerevan",
 Maindescriptionbaltimore:"Hotels, restaurants, attractions and other businesses across Baltimore are coming together to show the world that Charm City is committed to supporting and embracing diversity, equity and inclusion, and fostering a welcoming environment for ALL travelers, no matter who they are or where they come from.",
-
-
+Home:"Home",
+Email:"Email",
+Phone:"Phone",
+Address:"Address",
+Abovyan:"Abovyan Street",
+Here:"WE ARE HERE"
 }
 
 
@@ -158,7 +162,13 @@ Hotelbaltimore:" Wingate by Wyndham  ",
 Summerbaltimore:"Ամառ/Ձմեռ",
 Yerevanbaltimore:"Երևան/Երևան",
 Maindescriptionbaltimore:"Հյուրանոցները, ռեստորանները, տեսարժան վայրերը և այլ բիզնեսները Բալթիմորում հավաքվում են՝ ցույց տալու աշխարհին, որ Charm City-ն հավատարիմ է բազմազանությանը, հավասարությանը և ընդգրկմանը աջակցելուն և ընդգրկելուն և խրախուսելու հյուրընկալ միջավայր ԲՈԼՈՐ ճանապարհորդների համար՝ անկախ նրանից, թե ովքեր են նրանք և որտեղիցեն նրանք գալիս",
-
+//Contact
+Home:"Գլխավոր",
+Email:"Էլ․Հասցե",
+Phone:"Հեռախոսահամար",
+Address:"Հասցե",
+Abovyan:"Աբովյան փողոց",
+Here:"ՄԵՆՔ ԱՅՍՏԵՂ ԵՆՔ"
 }
 const translationsRus = {
   Miami:"Майами",
@@ -233,7 +243,13 @@ Hotelbaltimore:" Wingate by Wyndham ",
 Summerbaltimore:"Лето/Зима",
 Yerevanbaltimore:"Ереван/Ереван",
 Maindescriptionbaltimore:"Отели, рестораны, аттракционы и другие предприятия по всему Балтимору собираются вместе, чтобы показать миру, что Charm City стремится поддерживать и принимать разнообразие, справедливость и инклюзивность, а также создавать благоприятную среду для ВСЕХ путешественников, независимо от того, кто они и откуда они. из.",
-  
+  //Contact
+  Home:"Главный",
+  Email:"Эл. адрес",
+  Phone:"Телефон",
+  Address:"Адрес",
+  Abovyan:"улица Абовяна",
+  Here:"МЫ ТУТ"
   }
 
 

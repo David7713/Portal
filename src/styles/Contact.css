@@ -1,5 +1,56 @@
 .Contact{
     width: 100%;
-    height: 700px;
-    border: 2px solid black;
+    height: 400px;
+    color:#acd9ff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-part-1{
+ 
+    width: 300px;
+    height: 140px;
+    margin-left:200px;
+    margin-top:100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-part-1-details:hover{
+    color:gray;
+}
+#contact-portal{
+    font-size: 50px;
+}
+
+.contact-part-2{
+    display: inline-block;
+    vertical-align: top;
+   
+    margin-left:100px;
+    margin-top:100px;
+    width: 200px;
+    height: 200px;
+}
+
+
+#contact2-links{
+    font-size: 30px;;
+}
+
+.contact-links-2{
+    display:block;
+    color:#acd9ff;
+  
+}
+.contact-links-2:hover{
+    color:gray;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#contact-part3{
+    font-size: 30px;
 }
