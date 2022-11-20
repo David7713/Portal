@@ -6,13 +6,13 @@ import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
 import { BsBookmarkHeart} from 'react-icons/bs';
 import { GiCutDiamond} from 'react-icons/gi';
 import { TbBeach} from 'react-icons/tb';
+import BackToTop from './BackToTop';
 const Offer = () => {
     const { t } = useTranslation();
   return (
     <div className='Offer' data-aos="zoom-in">
     
-
-         
+    
 
 
 <div className='Ouroffers'>

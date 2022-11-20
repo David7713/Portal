@@ -8,18 +8,20 @@ import { SlDirections } from 'react-icons/sl';
 import i18n from "i18next";
 import { useTranslation, initReactI18next } from "react-i18next";
 import Navigation from './Navigation';
+import BackToTop from './BackToTop';
 const Miami = () => {
   const [ showdescription,setShowdescription ] = useState(false)
 
   const { t } = useTranslation();
 
   return (
+    
     <div className='Miami'  data-aos="fade-up">
 
       <div className='Miamii'> <Navigation></Navigation></div>
      
      
-
+     
     <p className='tourtomiami'>{t('Tourtomiami')}</p>
   <div className='linemiami'></div>
      <p className='pricemiami'>{t('Pricemiami')}</p>
@@ -68,6 +70,7 @@ const Miami = () => {
         <div>
         <div class="mapouter" className='mapofmiami'><div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"   src="https://maps.google.com/maps?q=985%20Collins%20AveMiami%20Beach,%20FL%2033139,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
         </div>
+        
     </div>
   )
 }

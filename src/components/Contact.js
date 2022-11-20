@@ -13,7 +13,7 @@ const Contact = () => {
 
       <p id='contact-portal'>PORTAL </p>
       <p className='contact-part-1-details'>{t('Email')}  &nbsp; &nbsp; <i class="fa-solid fa-envelope"></i> Portal@gmail.com</p>
-      <p className='contact-part-1-details'>{t('Phone')}  &nbsp; <i class="fa-solid fa-phone"></i> +913821903713</p>
+      <p className='contact-part-1-details'>{t('Phone')}  &nbsp; <i class="fa-solid fa-phone"></i> +37400000000</p>
       <p className='contact-part-1-details'>{t('Address')}   <i class="fa-solid fa-location-pin"></i>{t('Abovyan')}</p>
 
       </div>

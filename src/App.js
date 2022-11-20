@@ -16,11 +16,12 @@ import Card from './components/Card';
 import Explore from './components/Explore';
 import Offer from './components/Offer';
 import Numbers from './components/Numbers';
-
+import BackToTop from './components/BackToTop';
 //style Imports///
 import "./App.css"
-import "./styles/Spinner.css"
 import "./styles/Navigation.css"
+import "./styles/Spinner.css"
+import "./styles/BackToTop.css"
 import "./styles/Card.css"
 import "./styles/Miami.css"
 import "./styles/Baltimore.css"
@@ -85,6 +86,7 @@ setLoading(false)
     // <Suspense fallback="Loading...">
     <div className='App'>
 
+
 {/* spinner */} 
 
 
@@ -140,7 +142,9 @@ setLoading(false)
 
 <br></br><br></br>
 
+   
       {/* <Card></Card> */}
+      <BackToTop></BackToTop>
       <Explore></Explore>
       <Offer></Offer>
       {/* <Miami></Miami> */}
@@ -149,8 +153,6 @@ setLoading(false)
       <About></About> 
       {/* <Numbers></Numbers> */}
       <Contact></Contact> 
-  
-
 </div>
 
 }

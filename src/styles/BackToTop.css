@@ -1,0 +1,22 @@
+.BackToTop{
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    /* background-color: blue; */
+    z-index: 10;
+    margin-left:80%;
+    margin-top:500px;
+}
+.backtobutton{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 50%;
+    /* padding: 40px;; */
+    margin-top:100px;
+    margin-left:210px;
+    background-color:hwb(207 36% 10%);
+    border: 0.5px black;
+    cursor: pointer;
+     color:white;
+}
