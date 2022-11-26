@@ -19,7 +19,7 @@ const Contact = () => {
 
       </div>
 <div className='contact-part-2'>
-    <p id='contact2-links'>Usefull Links</p>
+    <p id='contact2-links'>{t('Links')} </p>
     <br></br>
       <a className='contact-links-2'   href='/'>{t('Home')}</a>
       <a className='contact-links-2'   href='/miami'>{t('Miami')}</a>
@@ -39,7 +39,8 @@ const Contact = () => {
 
     
 </div>
-
+<br></br><br></br><br></br><br></br>
+<p className='copyright'>© Copyright 2022 Portal Incorporated. All Rights Reserved.</p>
     </div>
   )
 }

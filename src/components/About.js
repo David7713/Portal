@@ -1,14 +1,13 @@
 import React from 'react';
 import Numbers from './Numbers';
 import i18n from "i18next";
-import Navigation from './Navigation';
 import { useTranslation, initReactI18next } from "react-i18next";
 const About = () => {
   const { t } = useTranslation();
   return (
     <div className='About' data-aos="zoom-in">
            <div className='aboutustext'>
-      
+          
            {t('Aboutus')}
                         <div className='lineabout' ></div>
        </div>
@@ -43,6 +42,7 @@ const About = () => {
           <div className='rightside2'></div>
       </div>
 
+      
 
     </div>
   )

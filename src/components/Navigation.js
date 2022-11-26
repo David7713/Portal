@@ -58,6 +58,7 @@ Partners:"Partners",
 Tours:"Tours",
 Happyface:"Happy Face",
 
+
 // NEWYORK
 Tourtonewyork:"TOUR TO NEW YORK",
 Pricenewyork:"Price 3.000 USD",
@@ -96,7 +97,8 @@ Email:"Email",
 Phone:"Phone",
 Address:"Address",
 Abovyan:"Abovyan Street",
-Here:"WE ARE HERE"
+Here:"WE ARE HERE",
+Links:"Links"
 }
 
 
@@ -180,7 +182,8 @@ Email:"Էլ․Հասցե",
 Phone:"Հեռախոսահամար",
 Address:"Հասցե",
 Abovyan:"Աբովյան փողոց",
-Here:"ՄԵՆՔ ԱՅՍՏԵՂ ԵՆՔ"
+Here:"ՄԵՆՔ ԱՅՍՏԵՂ ԵՆՔ",
+Links:"Հղումներ"
 }
 const translationsRus = {
   Miami:"Майами",
@@ -263,7 +266,8 @@ Maindescriptionbaltimore:"Отели, рестораны, аттракционы
   Phone:"Телефон",
   Address:"Адрес",
   Abovyan:"улица Абовяна",
-  Here:"МЫ ТУТ"
+  Here:"МЫ ТУТ",
+  Links:"Ссылки"
   }
 
 
