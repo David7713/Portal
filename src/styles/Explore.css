@@ -1,28 +1,24 @@
 .Explore{
     width: 100%;
     height: 700px;
-    /* border: 1px solid black; */
     background-color: white;
 }
 
 .exploreimage{
     width: 800px;
     height: 500px;
-    /* border:1px solid black; */
     margin: 130px;
     display: inline-block;
     vertical-align: top;
     background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/lol.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 1px solid black; */
 }
 .exploretext{
     width: 400px;
     height: 500px;
     display: inline-block;
     vertical-align: top;
-    /* border: 1px solid black; */
     margin-top:130px;
     font-family: 'Montserrat', sans-serif;
     color:#acd9ff;
@@ -34,14 +30,6 @@
     font-size: 16px;
 }
 
-/* .moreinfo{
-    width: 70px;
-    height: 30px;
-    border: 1px solid black;
-    font-size: 16px;
-    color:black;
-    margin-top:30px
-} */
 .duu{
     width: 500px;
     height: 200px;

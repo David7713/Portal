@@ -7,14 +7,20 @@ import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
 
 ///////resources///
 const translationsEng = {
+
+  //Navigation
 Miami:"Miami",
 Newyork:"New York",
 Baltimore:"Baltimore",
 About:"About",
 Contact:"Contact",
+
+//Expore
 exploretext1:"Explore a new world",
 exploretext2:"No matter where in the world you want to go, we can help you get there",
 exploretext3:"Explore",
+
+//Miami
 Tourtomiami:"TOUR TO MIAMI",
 Pricemiami:"Price 1.500 USD",
 Duration:"DURATION",
@@ -28,6 +34,8 @@ Summermiami:"Summer",
 Yerevanmiami:"Yerevan/Yerevan",
 Descriptionbtn:"Description",
 Maindescriptionmiami:"Welcome to Miami since the 1920s, Miami Beach has been synonymous with irony and unexpected sunshine. 12 blocks long and 12 blocks wide, South Beach is the perfect place to stroll.With boutiques, restaurants, bars, clubs, museums and, of course, sandy beaches, you will never be bored.",
+
+//General
 Priceincludes:"Price Includes",
 Hotelmiami:"Hotel:Crystal Beach Suites Miami",
 Airtickets:"Airtickets",
@@ -75,12 +83,14 @@ Quality:"Quality care",
 
 //Baltimore
 Tourtobaltimore:"TOUR TO BALTIMORE",
-Pricebaltimore:"Price՝2.500 USD",
+Pricebaltimore:"Price 2.500 USD",
 Sevendaysbaltimore:"7days/6 Night",
 Hotelbaltimore:" Wingate by Wyndham  ",
 Summerbaltimore:"Summer/Winter",
 Yerevanbaltimore:"Yerevan/Yerevan",
 Maindescriptionbaltimore:"Hotels, restaurants, attractions and other businesses across Baltimore are coming together to show the world that Charm City is committed to supporting and embracing diversity, equity and inclusion, and fostering a welcoming environment for ALL travelers, no matter who they are or where they come from.",
+
+//Contact
 Home:"Home",
 Email:"Email",
 Phone:"Phone",
@@ -112,6 +122,8 @@ Summermiami:"ԱՄԱՌ",
 Yerevanmiami:"Երևան/Երևան",
 Descriptionbtn:"Նկարագիր",
 Maindescriptionmiami:"Բարի գալուստ Մայամի 1920-ականներից ի վեր, Miami Beach-ը հոմանիշ է եղել զվարճանքի և արևի: 12 բլոկ երկարությամբ և 12 բլոկների լայնությամբ Հարավային լողափը կատարյալ վայր է զբոսանքի համար: Բուտիկների, ռեստորանների, բարերի, ակումբների, թանգարանների և, իհարկե, ավազոտ լողափերի հետ դուք երբեք չեք ձանձրանա:",
+
+//General
 Priceincludes:"Գինը Ներառում է",
 Hotelmiami:"Հյուրանոց:Crystal Beach Suites Miami",
 Airtickets:"Ավիատոմսեր",
@@ -192,6 +204,8 @@ const translationsRus = {
   Yerevanmiami:"Ереван/Ереван",
   Descriptionbtn:"Описание",
   Maindescriptionmiami:"Добро пожаловать в Майами с 1920-х годов, Майами-Бич был синонимом иронии и неожиданного солнечного света. 12 кварталов в длину и 12 кварталов в ширину, Саут-Бич — идеальное место для прогулок. С бутиками, ресторанами, барами, клубами, музеями и, конечно же, песчаными пляжами вам никогда не будет скучно.",
+
+  //General
   Priceincludes:"Цена включает",
   Hotelmiami:"Отель:Crystal Beach Suites Miami",
   Airtickets:"Авиабилеты",

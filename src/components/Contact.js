@@ -12,14 +12,15 @@ const Contact = () => {
       <div className='contact-part-1'>
 
       <p id='contact-portal'>PORTAL </p>
+      <br></br>
       <p className='contact-part-1-details'>{t('Email')}  &nbsp; &nbsp; <i class="fa-solid fa-envelope"></i> Portal@gmail.com</p>
       <p className='contact-part-1-details'>{t('Phone')}  &nbsp; <i class="fa-solid fa-phone"></i> +37400000000</p>
       <p className='contact-part-1-details'>{t('Address')}   <i class="fa-solid fa-location-pin"></i>{t('Abovyan')}</p>
 
       </div>
 <div className='contact-part-2'>
-    <p id='contact2-links'>Links</p>
-    
+    <p id='contact2-links'>Usefull Links</p>
+    <br></br>
       <a className='contact-links-2'   href='/'>{t('Home')}</a>
       <a className='contact-links-2'   href='/miami'>{t('Miami')}</a>
       <a className='contact-links-2'   href='/newyork'>{t('Newyork')}</a>
