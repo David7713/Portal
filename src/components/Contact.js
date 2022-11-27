@@ -22,10 +22,10 @@ const Contact = () => {
     <p id='contact2-links'>{t('Links')} </p>
     <br></br>
       <a className='contact-links-2'   href='/Portal/'>{t('Home')}</a>
-      <a className='contact-links-2'   href='/Portal/miami'>{t('Miami')}</a>
-      <a className='contact-links-2'   href='/Portal/newyork'>{t('Newyork')}</a>
-      <a className='contact-links-2'   href='/Portal/baltimore'>{t('Baltimore')}</a>
-      <a className='contact-links-2'   href='/Portal/about'>{t('About')}</a>
+      <a className='contact-links-2'   href='/miami'>{t('Miami')}</a>
+      <a className='contact-links-2'   href='/newyork'>{t('Newyork')}</a>
+      <a className='contact-links-2'   href='/baltimore'>{t('Baltimore')}</a>
+      <a className='contact-links-2'   href='/about'>{t('About')}</a>
   
  
   
