@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portal/static/css/main.ea9f861c.css",
+    "main.js": "/Portal/static/js/main.89c24bbf.js",
+    "static/media/baltimore1.jpg": "/Portal/static/media/baltimore1.21607f4933db7d2c8e81.jpg",
+    "static/media/Beach.jpg": "/Portal/static/media/Beach.06ed48cc04d8d60d336e.jpg",
+    "static/media/baltimore3.jpg": "/Portal/static/media/baltimore3.0f92c174cb86b6b23989.jpg",
+    "static/media/newyork.jpg": "/Portal/static/media/newyork.fe9efeea8e9119f49d94.jpg",
+    "static/media/Newyorkcity2.jpg": "/Portal/static/media/Newyorkcity2.d254139db90d999df462.jpg",
+    "static/media/newyork2.jpg": "/Portal/static/media/newyork2.8b4fdf350f360e3b1ff6.jpg",
+    "static/media/Beach2.jpg": "/Portal/static/media/Beach2.b604c3ee50df67225175.jpg",
+    "static/media/miami.jpg": "/Portal/static/media/miami.040ff9e74c069ad370ce.jpg",
+    "static/media/baltimore.jpg": "/Portal/static/media/baltimore.f44c97febea37d255d95.jpg",
+    "static/media/Newyorkcity.jpg": "/Portal/static/media/Newyorkcity.f1751a62282a480803c3.jpg",
+    "static/media/miami2.jpg": "/Portal/static/media/miami2.c53b2086227cf6ee69f9.jpg",
+    "static/media/Hotelnewyork.jpg": "/Portal/static/media/Hotelnewyork.b6b296c85333f86b0170.jpg",
+    "static/media/lol.png": "/Portal/static/media/lol.21b48c060cdea6b9aa85.png",
+    "static/media/baltimore2.jpg": "/Portal/static/media/baltimore2.f2369f17b6cd458ffaaf.jpg",
+    "static/media/Hotel.jpg": "/Portal/static/media/Hotel.81164bb205adf49705cb.jpg",
+    "static/media/aboutusimage1.jpg": "/Portal/static/media/aboutusimage1.8bd1b91d7a2c6ec53447.jpg",
+    "static/media/aboutimage2.jpg": "/Portal/static/media/aboutimage2.32667cd0dd48aac6f156.jpg",
+    "static/media/PortallogoPNG.png": "/Portal/static/media/PortallogoPNG.e47b1c27379152b45ca9.png",
+    "index.html": "/Portal/index.html",
+    "main.ea9f861c.css.map": "/Portal/static/css/main.ea9f861c.css.map",
+    "main.89c24bbf.js.map": "/Portal/static/js/main.89c24bbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea9f861c.css",
+    "static/js/main.89c24bbf.js"
+  ]
+}
