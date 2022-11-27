@@ -126,7 +126,9 @@ setLoading(false)
     <Routes>
    
       <Route path='home' element={<App></App>}></Route>
+      {/* <Route path='//Portal' element={<App></App>}></Route> */}
       <Route path='/' element={<Navigation></Navigation>}></Route>
+      <Route path='//Portal' element={<Navigation></Navigation>}></Route>
       <Route path='/miami' element={<Miami></Miami>}></Route>
   
       <Route path='/newyork' element={<Newyork></Newyork>}></Route>
