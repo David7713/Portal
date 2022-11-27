@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portal/static/css/main.ea9f861c.css",
-    "main.js": "/Portal/static/js/main.89c24bbf.js",
+    "main.css": "/Portal/static/css/main.e91fdf18.css",
+    "main.js": "/Portal/static/js/main.50598ae4.js",
     "static/media/baltimore1.jpg": "/Portal/static/media/baltimore1.21607f4933db7d2c8e81.jpg",
     "static/media/Beach.jpg": "/Portal/static/media/Beach.06ed48cc04d8d60d336e.jpg",
     "static/media/baltimore3.jpg": "/Portal/static/media/baltimore3.0f92c174cb86b6b23989.jpg",
@@ -21,11 +21,11 @@
     "static/media/aboutimage2.jpg": "/Portal/static/media/aboutimage2.32667cd0dd48aac6f156.jpg",
     "static/media/PortallogoPNG.png": "/Portal/static/media/PortallogoPNG.e47b1c27379152b45ca9.png",
     "index.html": "/Portal/index.html",
-    "main.ea9f861c.css.map": "/Portal/static/css/main.ea9f861c.css.map",
-    "main.89c24bbf.js.map": "/Portal/static/js/main.89c24bbf.js.map"
+    "main.e91fdf18.css.map": "/Portal/static/css/main.e91fdf18.css.map",
+    "main.50598ae4.js.map": "/Portal/static/js/main.50598ae4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea9f861c.css",
-    "static/js/main.89c24bbf.js"
+    "static/css/main.e91fdf18.css",
+    "static/js/main.50598ae4.js"
   ]
 }
