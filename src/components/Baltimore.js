@@ -17,7 +17,7 @@ const Baltimore = () => {
   <div className='Baltimoree'> <Navigation></Navigation></div>
 
 <p className='tourtobaltimore'>{t('Tourtobaltimore')}</p>
-  <div className='linebaltimore'></div>
+  <div className='linebaltimore' ></div>
      <p className='pricebaltimore'>{t('Pricebaltimore')}</p>
     
     <div className='descriptiontable'>
