@@ -20,7 +20,7 @@ const Explore = () => {
   },[]);
   return (
     // <Suspense fallback={<p></p>}>
-    <div className='Explore' data-aos="fade-down"  >
+    <div className='Explore' data-aos="fade-down"  name="home" >
 
 
 

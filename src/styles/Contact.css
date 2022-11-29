@@ -40,6 +40,13 @@
 .contact-links-2{
     display:block;
     color:#acd9ff;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url("C:/Users/HDcomputers/Desktop/Portal/portal/src/images/PortallogoPNG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   
 }
 .contact-links-2:hover{

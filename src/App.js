@@ -130,11 +130,8 @@ setLoading(false)
       <Route path='/' element={<Navigation></Navigation>}></Route>
       <Route path='//Portal' element={<Navigation></Navigation>}></Route>
       <Route path='/miami' element={<Miami></Miami>}></Route>
-      <Route path='/Portal/miami' element={<Miami></Miami>}></Route>
       <Route path='/newyork' element={<Newyork></Newyork>}></Route>
-      <Route path='/Portal/newyork' element={<Newyork></Newyork>}></Route>
       <Route path='/baltimore' element={<Baltimore></Baltimore>}></Route>
-      <Route path='/Portal/baltimore' element={<Baltimore></Baltimore>}></Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='contact' element={<Contact></Contact>}></Route>
 
