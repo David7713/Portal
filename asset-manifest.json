@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6012442d.css",
-    "main.js": "/static/js/main.e4c429b6.js",
+    "main.css": "/static/css/main.49cec311.css",
+    "main.js": "/static/js/main.b95b7e63.js",
     "static/media/baltimore1.jpg": "/static/media/baltimore1.21607f4933db7d2c8e81.jpg",
     "static/media/Beach.jpg": "/static/media/Beach.06ed48cc04d8d60d336e.jpg",
     "static/media/baltimore3.jpg": "/static/media/baltimore3.0f92c174cb86b6b23989.jpg",
@@ -21,11 +21,11 @@
     "static/media/aboutimage2.jpg": "/static/media/aboutimage2.32667cd0dd48aac6f156.jpg",
     "static/media/PortallogoPNG.png": "/static/media/PortallogoPNG.e47b1c27379152b45ca9.png",
     "index.html": "/index.html",
-    "main.6012442d.css.map": "/static/css/main.6012442d.css.map",
-    "main.e4c429b6.js.map": "/static/js/main.e4c429b6.js.map"
+    "main.49cec311.css.map": "/static/css/main.49cec311.css.map",
+    "main.b95b7e63.js.map": "/static/js/main.b95b7e63.js.map"
   },
   "entrypoints": [
-    "static/css/main.6012442d.css",
-    "static/js/main.e4c429b6.js"
+    "static/css/main.49cec311.css",
+    "static/js/main.b95b7e63.js"
   ]
 }
